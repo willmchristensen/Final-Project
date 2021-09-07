@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1 id="h1">My Climbing Addicition</h1>
+    </header> 
+
+    <ul class="navbar">
+
+        <a href="https://bit.ly/3xZf6d9" target="blank">
+            <img id="logo" src="./images/owlLoveU.png">
+        </a>
+
+        <li class="home">
+            <a href="./index.html"> Home </a>
+        </li>
+        <li>
+            <a href="./about.html">About</a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">Contact</a>
+        </li>
+    </ul>
+
+    <h1>I'd love to hear from you</h1>
+    <p>(Only if you want to talk about climbing)</p>
+    <button class="btn" type="button" name="button">Let's Chat</button>
+
+    <div class="contactForm">
+        <form action="action-page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="russia">Russia</option>
+                <option value="canada">Canada</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="Write something.." style="height: 200px;"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>    
+    </div>
+
+    <div class="newsletter-container">
+        <form action="">
+            <h1> Subscribe to our newsletter</h1>
+            <div>
+                <p>Get the hottest climbing news straight to your inbox.</p>
+            </div>
+
+            <div class="emailBox">
+
+                <i class="fas fa-envelope"></i>
+
+                <input class="tbox" type="email" placeholder="Enter your email">
+
+                <button class="btn" type="button" name="button">Subscribe</button>
+
+            </div>
+        </form>
+    </div>
+
+
 </body>
 </html>
