@@ -1,50 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- SEO/meta tags -->
+    <meta name="keywords" content="Rock Climbing, Climbing, Climb">
+    <meta name="author" content="William Christensen">
+    <!-- 
+        Google font:  Roboto
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- 
+        Google font:  Raleway
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <!-- fontawesome & stylesheet -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>ClimbMore</title>
+
 </head>
+
 <body>
-
     <header>
-        <h1 id="h1">My Climbing Addicition</h1>
-    </header> 
+        <ul class="navbar">
 
-    <ul class="navbar">
+            <a href="https://bit.ly/3xZf6d9" target="blank">
+                <img id="logo" src="./images/owlLoveU.png">
+            </a>
 
-        <a href="https://bit.ly/3xZf6d9" target="blank">
-            <img id="logo" src="./images/owlLoveU.png">
-        </a>
+            <li class="home"><a href="./index.html"> Home </a></li>
+            <li><a href="javascript:void(0)">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
 
-        <li class="home">
-            <a href="./index.html"> Home </a>
-        </li>
-        <li>
-            <a href="javascript:void(0)">About</a>
-        </li>
-        <li>
-            <a href="./contact.html">Contact</a>
-        </li>
-    </ul>
+    </header>
 
-    <h1>Purpose: Teach others about climbing</h1>
-    <p>
-        Ever since I discovered the sport of climbing, my interest has grown into an obsession. My name is
-        William Christensen and I have a climbing addiction. 
-    </p>
+    <article>
+        <div class="row1">
+            <div class="column1 middle">
+                <h1>Purpose: Teach Others About Climbing</h1>
+                <p>
+                    Ever since I discovered the sport of climbing, my interest has grown into an obsession.
+                </p>
+                <ul>
+                    <h1 style="margin-top: 20px;"> About Me </h1>
+                    <div class="list">
+                        <li>
+                            Name: William Michael Christensen
+                        </li>
+                        <li>
+                            Hometown: Sanger, CA
+                        </li>
+                        <li>
+                            Alma Mater: Cal Poly San Luis Obispo
+                        </li>
+                        <li>
+                            Favorite Climber: Alexander Megos
+                        </li>
+                        <li>
+                            Hobbies: Hiking, Climbing, Mixing Records,
+                            Cooking, Yoga
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="column1 side">
+                <iframe src="https://maps.google.com/maps?q=Sanger,+CA+93657,+USA&output=embed" width="100%"
+                    height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </article>
 
-    <h1>Who I Am</h1>
-    <p>
-        Name: William Michael Christensen
-        <br>
-        Hometown: Sanger, CA
-        <br>
-        Alma Mater: Cal Poly San Luis Obispo 
-        <br>
-        Favorite Climber: Alexander Megos
-    </p>
+    <br>
+    <hr>
+    <br>
+    <div class="newsletter-container">
+        <form action="">
+            <h1> Subscribe to our newsletter</h1>
+            <div>
+                <p>Get the hottest climbing news straight to your inbox</p>
+            </div>
+
+            <div class="emailBox">
+
+                <i class="fas fa-envelope"></i>
+
+                <input class="tbox" type="email" placeholder="Enter your email">
+
+                <button class="btn" type="button" name="button">Subscribe</button>
+
+            </div>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <div class="footer-main-div">
+        <footer>
+            <div class="social-footer-icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-one">
+                <ul>
+                    <li class="home"><a href="javascript:void(0)"> Home </a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+    </div>
+    </footer>
 
 </body>
+
 </html>
